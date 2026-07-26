@@ -1,7 +1,22 @@
 aid: echelon
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/echelon.png
 name: Echelon
-description: Echelon is a company surfaced as a portfolio company of mayfield and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Echelon Corporation was a pioneer in energy control networking and semiconductors,
+  known for its LonWorks control networking platform and IoT edge computing products. Surfaced as a
+  Mayfield portfolio company (listed as an energy-control-networking milestone/exit), the company is no
+  longer an independent entity — its product lines were acquired (Adesto Technologies, 2018) and now
+  live under EnOcean. There is no live Echelon developer portal or public API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/echelon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +24,26 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: echelon.com no longer resolves; www.echelon.com 301-redirects to enocean.com (product
+  lines absorbed by EnOcean). Verified 2026-07-18.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Semiconductors
+- Energy
+- IoT
+- Control Networking
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
