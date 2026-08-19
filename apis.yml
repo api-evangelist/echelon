@@ -27,7 +27,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-note: echelon.com no longer resolves; www.echelon.com 301-redirects to enocean.com (product
   lines absorbed by EnOcean). Verified 2026-07-18.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
