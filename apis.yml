@@ -23,11 +23,11 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/echelon.png
 name: Echelon
-description: Echelon Corporation was a pioneer in energy control networking and semiconductors,
-  known for its LonWorks control networking platform and IoT edge computing products. Surfaced as a
-  Mayfield portfolio company (listed as an energy-control-networking milestone/exit), the company is no
-  longer an independent entity — its product lines were acquired (Adesto Technologies, 2018) and now
-  live under EnOcean. There is no live Echelon developer portal or public API surface to enrich.
+description: Echelon Corporation was a pioneer in energy control networking and semiconductors, known
+  for its LonWorks control networking platform and IoT edge computing products. Surfaced as a Mayfield
+  portfolio company (listed as an energy-control-networking milestone/exit), the company is no longer
+  an independent entity — its product lines were acquired (Adesto Technologies, 2018) and now live under
+  EnOcean. There is no live Echelon developer portal or public API surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/echelon/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -36,17 +36,18 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
-x-status-note: echelon.com no longer resolves; www.echelon.com 301-redirects to enocean.com (product
-  lines absorbed by EnOcean). Verified 2026-07-18.
+x-status-note: echelon.com no longer resolves; www.echelon.com 301-redirects to enocean.com (product lines
+  absorbed by EnOcean). Verified 2026-07-18.
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-09-15'
 tags:
 - Company
 - Semiconductors
 - Energy
 - IoT
 - Control Networking
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
